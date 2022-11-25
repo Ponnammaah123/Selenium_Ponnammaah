@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 23 15:52:38 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35032 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testing.SmokeTest.verifySocialMediaCount()'><b>verifySocialMediaCount</b><br>Test class: testing.SmokeTest</td>
+<td><div><pre>java.lang.AssertionError: expected [5] but found [4]
+	at testing.SmokeTest.verifySocialMediaCount(SmokeTest.java:37)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1513676152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1513676152'><pre>java.lang.AssertionError: expected [5] but found [4]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at testing.SmokeTest.verifySocialMediaCount(SmokeTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>testing.SmokeTest@2c35e847</td></tr>
+<tr>
+<td title='test_reporting.TaskDay3.switchTabs()'><b>switchTabs</b><br>Test class: test_reporting.TaskDay3</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at test_reporting.TaskDay3.switchTabs(TaskDay3.java:23)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace707889406", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace707889406'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at test_reporting.TaskDay3.switchTabs(TaskDay3.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>1</td>
+<td>test_reporting.TaskDay3@5d7148e2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testing.MyFirstTestNGTest.createAccount()'><b>createAccount</b><br>Test class: testing.MyFirstTestNGTest</td>
+<td></td>
+<td>0</td>
+<td>testing.MyFirstTestNGTest@878537d</td></tr>
+<tr>
+<td title='testing.Login.invalidPassword()'><b>invalidPassword</b><br>Test class: testing.Login</td>
+<td></td>
+<td>0</td>
+<td>testing.Login@3e84448c</td></tr>
+<tr>
+<td title='test_reporting.Login.invalidPassword()'><b>invalidPassword</b><br>Test class: test_reporting.Login</td>
+<td></td>
+<td>0</td>
+<td>test_reporting.Login@4455f57d</td></tr>
+<tr>
+<td title='testing.Login.noEntry()'><b>noEntry</b><br>Test class: testing.Login</td>
+<td></td>
+<td>0</td>
+<td>testing.Login@3e84448c</td></tr>
+<tr>
+<td title='test_reporting.MyFirstSeleniumScript.amazonTitle()'><b>amazonTitle</b><br>Test class: test_reporting.MyFirstSeleniumScript</td>
+<td></td>
+<td>3</td>
+<td>test_reporting.MyFirstSeleniumScript@4fb3ee4e</td></tr>
+<tr>
+<td title='test_reporting.MyFirstSeleniumScript2.ineuronLogin()'><b>ineuronLogin</b><br>Test class: test_reporting.MyFirstSeleniumScript2</td>
+<td></td>
+<td>2</td>
+<td>test_reporting.MyFirstSeleniumScript2@7bd4937b</td></tr>
+<tr>
+<td title='testing.LoginTest.verifyNoEntry()'><b>verifyNoEntry</b><br>Test class: testing.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>testing.LoginTest@ccd1bc3</td></tr>
+<tr>
+<td title='testing.Login.validPassword()'><b>validPassword</b><br>Test class: testing.Login</td>
+<td></td>
+<td>4</td>
+<td>testing.Login@3e84448c</td></tr>
+<tr>
+<td title='testing.SmokeTest.verifyTitle()'><b>verifyTitle</b><br>Test class: testing.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>testing.SmokeTest@2c35e847</td></tr>
+<tr>
+<td title='testing.MyFirstTestNGTest.deleteAccount()'><b>deleteAccount</b><br>Test class: testing.MyFirstTestNGTest</td>
+<td></td>
+<td>0</td>
+<td>testing.MyFirstTestNGTest@878537d</td></tr>
+<tr>
+<td title='testing.SmokeTest.verifyForgotPasswordLink()'><b>verifyForgotPasswordLink</b><br>Test class: testing.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>testing.SmokeTest@2c35e847</td></tr>
+<tr>
+<td title='testing.MyFirstTestNGTest.login()'><b>login</b><br>Test class: testing.MyFirstTestNGTest</td>
+<td></td>
+<td>0</td>
+<td>testing.MyFirstTestNGTest@878537d</td></tr>
+<tr>
+<td title='test_reporting.Login.invalidUser()'><b>invalidUser</b><br>Test class: test_reporting.Login</td>
+<td></td>
+<td>0</td>
+<td>test_reporting.Login@4455f57d</td></tr>
+<tr>
+<td title='test_reporting.Login.noEntry()'><b>noEntry</b><br>Test class: test_reporting.Login</td>
+<td></td>
+<td>0</td>
+<td>test_reporting.Login@4455f57d</td></tr>
+<tr>
+<td title='testing.SmokeTest.verifyURL()'><b>verifyURL</b><br>Test class: testing.SmokeTest</td>
+<td></td>
+<td>0</td>
+<td>testing.SmokeTest@2c35e847</td></tr>
+<tr>
+<td title='testing.MyFirstTestNGTest.logOutFromApplication()'><b>logOutFromApplication</b><br>Test class: testing.MyFirstTestNGTest</td>
+<td></td>
+<td>0</td>
+<td>testing.MyFirstTestNGTest@878537d</td></tr>
+<tr>
+<td title='testing.Login.invalidUser()'><b>invalidUser</b><br>Test class: testing.Login</td>
+<td></td>
+<td>0</td>
+<td>testing.Login@3e84448c</td></tr>
+<tr>
+<td title='test_reporting.Login.validPassword()'><b>validPassword</b><br>Test class: test_reporting.Login</td>
+<td></td>
+<td>3</td>
+<td>test_reporting.Login@4455f57d</td></tr>
+</table><p>
+</body>
+</html>

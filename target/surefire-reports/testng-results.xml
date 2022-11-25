@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-23T15:52:38 IST" name="Suite" finished-at="2022-11-23T15:53:13 IST" duration-ms="35032">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T15:52:38 IST" name="Test" finished-at="2022-11-23T15:53:13 IST" duration-ms="35032">
+      <class name="testing.MyFirstTestNGTest">
+        <test-method signature="createAccount()[pri:0, instance:testing.MyFirstTestNGTest@878537d]" started-at="2022-11-23T15:52:38 IST" name="createAccount" finished-at="2022-11-23T15:52:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="deleteAccount()[pri:0, instance:testing.MyFirstTestNGTest@878537d]" started-at="2022-11-23T15:52:38 IST" name="deleteAccount" finished-at="2022-11-23T15:52:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+        <test-method signature="login()[pri:2, instance:testing.MyFirstTestNGTest@878537d]" started-at="2022-11-23T15:52:38 IST" name="login" finished-at="2022-11-23T15:52:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logOutFromApplication()[pri:1, instance:testing.MyFirstTestNGTest@878537d]" started-at="2022-11-23T15:52:38 IST" name="logOutFromApplication" finished-at="2022-11-23T15:52:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+      </class> <!-- testing.MyFirstTestNGTest -->
+      <class name="testing.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:40 IST" name="setup" finished-at="2022-11-23T15:52:43 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPassword()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:43 IST" name="invalidPassword" finished-at="2022-11-23T15:52:44 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:44 IST" name="tearDown" finished-at="2022-11-23T15:52:44 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:44 IST" name="setup" finished-at="2022-11-23T15:52:47 IST" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUser()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:47 IST" name="invalidUser" finished-at="2022-11-23T15:52:47 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:47 IST" name="tearDown" finished-at="2022-11-23T15:52:47 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:47 IST" name="setup" finished-at="2022-11-23T15:52:50 IST" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noEntry()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:50 IST" name="noEntry" finished-at="2022-11-23T15:52:50 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:50 IST" name="tearDown" finished-at="2022-11-23T15:52:51 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:51 IST" name="setup" finished-at="2022-11-23T15:52:54 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validPassword()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:54 IST" name="validPassword" finished-at="2022-11-23T15:52:58 IST" duration-ms="4197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.Login@3e84448c]" started-at="2022-11-23T15:52:58 IST" name="tearDown" finished-at="2022-11-23T15:52:58 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.Login -->
+      <class name="test_reporting.MyFirstSeleniumScript">
+        <test-method signature="amazonTitle()[pri:0, instance:test_reporting.MyFirstSeleniumScript@4fb3ee4e]" started-at="2022-11-23T15:52:38 IST" name="amazonTitle" finished-at="2022-11-23T15:52:42 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTitle -->
+      </class> <!-- test_reporting.MyFirstSeleniumScript -->
+      <class name="test_reporting.TaskDay3">
+        <test-method signature="switchTabs()[pri:0, instance:test_reporting.TaskDay3@5d7148e2]" started-at="2022-11-23T15:52:58 IST" name="switchTabs" finished-at="2022-11-23T15:53:00 IST" duration-ms="1394" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at test_reporting.TaskDay3.switchTabs(TaskDay3.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTabs -->
+      </class> <!-- test_reporting.TaskDay3 -->
+      <class name="test_reporting.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:42 IST" name="setup" finished-at="2022-11-23T15:52:45 IST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPassword()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:45 IST" name="invalidPassword" finished-at="2022-11-23T15:52:45 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:45 IST" name="tearDown" finished-at="2022-11-23T15:52:45 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:45 IST" name="setup" finished-at="2022-11-23T15:52:48 IST" duration-ms="3048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUser()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:48 IST" name="invalidUser" finished-at="2022-11-23T15:52:48 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:48 IST" name="tearDown" finished-at="2022-11-23T15:52:49 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:49 IST" name="setup" finished-at="2022-11-23T15:52:52 IST" duration-ms="3488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="noEntry()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:52 IST" name="noEntry" finished-at="2022-11-23T15:52:52 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:52 IST" name="tearDown" finished-at="2022-11-23T15:52:52 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:52 IST" name="setup" finished-at="2022-11-23T15:52:56 IST" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validPassword()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:52:56 IST" name="validPassword" finished-at="2022-11-23T15:53:00 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_reporting.Login@4455f57d]" started-at="2022-11-23T15:53:00 IST" name="tearDown" finished-at="2022-11-23T15:53:00 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_reporting.Login -->
+      <class name="testing.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.LoginTest@ccd1bc3]" started-at="2022-11-23T15:53:00 IST" name="setup" finished-at="2022-11-23T15:53:02 IST" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoEntry()[pri:0, instance:testing.LoginTest@ccd1bc3]" started-at="2022-11-23T15:53:02 IST" name="verifyNoEntry" finished-at="2022-11-23T15:53:05 IST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.LoginTest@ccd1bc3]" started-at="2022-11-23T15:53:05 IST" name="tearDown" finished-at="2022-11-23T15:53:05 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.LoginTest -->
+      <class name="testing.SmokeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:00 IST" name="setup" finished-at="2022-11-23T15:53:03 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgotPasswordLink()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:03 IST" name="verifyForgotPasswordLink" finished-at="2022-11-23T15:53:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:03 IST" name="tearDown" finished-at="2022-11-23T15:53:03 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:03 IST" name="setup" finished-at="2022-11-23T15:53:06 IST" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySocialMediaCount()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:06 IST" name="verifySocialMediaCount" finished-at="2022-11-23T15:53:06 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5] but found [4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5] but found [4]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at testing.SmokeTest.verifySocialMediaCount(SmokeTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySocialMediaCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:06 IST" name="tearDown" finished-at="2022-11-23T15:53:07 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:07 IST" name="setup" finished-at="2022-11-23T15:53:10 IST" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:10 IST" name="verifyTitle" finished-at="2022-11-23T15:53:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:10 IST" name="tearDown" finished-at="2022-11-23T15:53:10 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:10 IST" name="setup" finished-at="2022-11-23T15:53:13 IST" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyURL()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:13 IST" name="verifyURL" finished-at="2022-11-23T15:53:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.SmokeTest@2c35e847]" started-at="2022-11-23T15:53:13 IST" name="tearDown" finished-at="2022-11-23T15:53:13 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.SmokeTest -->
+      <class name="test_reporting.MyFirstSeleniumScript2">
+        <test-method signature="ineuronLogin()[pri:0, instance:test_reporting.MyFirstSeleniumScript2@7bd4937b]" started-at="2022-11-23T15:52:38 IST" name="ineuronLogin" finished-at="2022-11-23T15:52:40 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ineuronLogin -->
+      </class> <!-- test_reporting.MyFirstSeleniumScript2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
